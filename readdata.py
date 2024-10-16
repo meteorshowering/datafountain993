@@ -112,7 +112,7 @@ for i in range(2,34):
     key = df.iloc[i,0]
     cities[key]['towner_disposableIcome'] = df.iloc[[0,i],:]
     
-df = pd.read_excel('生活水平.xlsx',4) 
+df = pd.read_excel('生活水平.xlsx',5) 
 for i in range(2,29):
     key = df.iloc[i,0]
     cities[key]['rural_disposableIcome'] = df.iloc[[0,i],:]
